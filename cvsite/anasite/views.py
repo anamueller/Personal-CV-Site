@@ -1,5 +1,17 @@
 from django.shortcuts import render
 
 # Create your views here.
-def homepage(request):
+def home(request):
 	return render(request=request, template_name='anasite/home.html')
+
+def about(request):
+	return render(request=request, template_name='anasite/about.html')
+
+def projects(request):
+	return render(request=request, template_name='anasite/projects.html')
+
+def resume(request):
+	return render(request=request, template_name='anasite/resume.html')
+
+def contact(request):
+	return render(request=request, template_name='anasite/contact.html')

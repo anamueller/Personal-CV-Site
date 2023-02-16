@@ -12,22 +12,30 @@
       body {
           background-color: #fad2e1;
       }
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+      
       </style>
       <header>
         {% load static %}
         <img align= "left" img src="{% static 'logo_ana.png' %}" width="110" height="110">
-        <link href="{% static "css/navbar.css" %}" rel="stylesheet">
+        
+        <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
         <ul>
-          <button class='glowing-btn'><span class='glowing-txt'>H<span class='faulty-letter'>O</span>ME</span></button>
-          <button class='glowing-btn'><span class='glowing-txt'>AB<span class='faulty-letter'>O</span>UT</span></button>
-          <button class='glowing-btn'><span class='glowing-txt'>PRO<span class='faulty-letter'>JEC</span>TS</span></button>
-          <button class='glowing-btn'><span class='glowing-txt'>RE<span class='faulty-letter'>SU</span>ME</span></button>
-        </ul> 
+          <li style="--clr:#00ade1">
+            <a href="" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+          </li>
+          <li style="--clr:#dc00d4">
+            <a href="#" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
+          </li>
+          <li style="--clr:#dc00d4">
+            <a href="#" data-text="&nbsp;Projects">&nbsp;Projects&nbsp;</a>
+          </li>
+          <li style="--clr:#dc00d4">
+            <a href="#" data-text="&nbsp;Resume">&nbsp;Resume&nbsp;</a>
+          </li>
+          <li style="--clr:#dc00d4">
+            <a href="#" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
+          </li>
+        </ul>
       </header>
 
 </html>

@@ -6,11 +6,6 @@
   font-family: 'Mochiy Pop One', sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
 ul {
     position: relative;

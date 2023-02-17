@@ -18,16 +18,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow-x: hidden;
-      overflow-y: auto;
     }
+    html{
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+
   </style>
 
   <body>
     <div class="parent"> 
-      <header>
-        <link href="{% static "css/fundo.css" %}" rel="stylesheet">
-    
+      <link href="{% static "css/fundo.css" %}" rel="stylesheet">
         <section>
           <span></span>
           <span></span>
@@ -40,10 +41,9 @@
           <span></span>
           <span></span>
         </section>
-
+      <header>
         <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
       </header>
-
       <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
       <ul>
         <li style="--clr:#00ade1">
@@ -62,17 +62,25 @@
           <a href="contact" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
         </li>
       </ul>
-        <div style="position: absolute; bottom: 150px; left: 150px;">
-          <img src="{% static 'woman_coding.png' %}" width="300" height="279">
-        </div>
-        
-        <div style="position: absolute; bottom: 230px; right: 500px;">
-          <link href="{% static "css/typewriter.css" %}" rel="stylesheet">
-          <div>
-            <h1 class="typewriter"></h1>
-            <h1 class="typewriter"></h1>
-            <h1 class="typewriter"></h1>
-          </div>
-        </div>
+    </div>
+
+    <div style="position: absolute; bottom: 150px; left: 150px;">
+      <img src="{% static 'woman_coding.png' %}" width="300" height="279">
+    </div>
+    
+    <div style="position: absolute; bottom: 230px; right: 500px;">
+      <link href="{% static "css/typewriter.css" %}" rel="stylesheet">
+      <div>
+        <h1 class="typewriter"></h1>
+        <h1 class="typewriter"></h1>
+        <h1 class="typewriter"></h1>
+      </div>
+    </div>
+    <div style="position: absolute; bottom: 0px; right: 500px;">
+      <p>teste</p>
+      <p>teste</p>
+      <p>teste</p>
+      <p>teste</p>
+    </div>
   </body>
 </html>

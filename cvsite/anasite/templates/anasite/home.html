@@ -12,7 +12,7 @@
 
   <style>
     body{
-      background-color: #0f4c5c;
+      background-color: #110114;
     }
     .parent {
       display: flex;
@@ -20,8 +20,9 @@
       align-items: center;
     }
     html{
+      height: 1500px;
+      overflow-x: hidden;
       overflow-y: auto;
-      scroll-behavior: smooth;
     }
 
   </style>
@@ -46,37 +47,45 @@
       </header>
       <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
       <ul>
-        <li style="--clr:#00ade1">
+        <li style="--clr:#ebc4ba">
           <a href="home" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
         </li>
-        <li style="--clr:#00ade1">
+        <li style="--clr:#ebc4ba">
           <a href="about" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
         </li>
-        <li style="--clr:#00ade1">
+        <li style="--clr:#ebc4ba">
           <a href="projects" data-text="&nbsp;Projects">&nbsp;Projects&nbsp;</a>
         </li>
-        <li style="--clr:#00ade1">
+        <li style="--clr:#ebc4ba">
           <a href="resume" data-text="&nbsp;Resume">&nbsp;Resume&nbsp;</a>
         </li>
-        <li style="--clr:#00ade1">
+        <li style="--clr:#ebc4ba">
           <a href="contact" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
         </li>
       </ul>
     </div>
 
-    <div style="position: absolute; bottom: 150px; left: 150px;">
+    <div style="position: absolute; top: 200px; left: 150px;">
       <img src="{% static 'woman_coding.png' %}" width="300" height="279">
     </div>
+
+    <div style="position: absolute; top: 230px; left: 600px">
+      <h1>Hey there!</h1>
+    </div>
+    <div style="position: absolute; top: 290px; left: 600px">
+      <h1>I am Ana Clara</h1>
+    </div>
     
-    <div style="position: absolute; bottom: 230px; right: 500px;">
-      <link href="{% static "css/typewriter.css" %}" rel="stylesheet">
+    <div style="position: absolute; top: 350px; left: 600px">
       <div>
-        <h1 class="typewriter"></h1>
-        <h1 class="typewriter"></h1>
+        <link href="{% static "css/typewriter.css" %}" rel="stylesheet">
         <h1 class="typewriter"></h1>
       </div>
     </div>
-    <div style="position: absolute; bottom: 0px; right: 500px;">
+    <div style="position: absolute; top: 650px; right: 700px;">
+      <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5vmin; font-weight: 700;">A little bit about me</p>
+      <p>teste</p>
+      <p>teste</p>
       <p>teste</p>
       <p>teste</p>
       <p>teste</p>

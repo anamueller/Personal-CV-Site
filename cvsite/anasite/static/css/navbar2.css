@@ -35,10 +35,10 @@ ul li a::before {
   width: 0;
   overflow: hidden;
   transition: 1s;
-  border-right: 5px solid #ebc4ba;
-  -webkit-text-stroke: 1px #ebc4ba;
+  border-right: 5px solid var(--clr);
+  -webkit-text-stroke: 1px var(--clr);
 }
 ul li a:hover::before {
   width: 100%;
-  filter: drop-shadow(0 0 20px #ebc4ba)
+  filter: drop-shadow(0 0 20px var(--clr))
 }

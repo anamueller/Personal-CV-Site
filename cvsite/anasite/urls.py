@@ -8,8 +8,8 @@ app_name = "anasite"
 
 
 urlpatterns = [
-    path("", views.home, name="index"),
-    path("index", views.home, name="index"),
+    path("", views.home, name="home"),
+    path("home", views.home, name="home"),
     path("about", views.about, name="about"),
     path("projects", views.projects, name="projects"),
     path("resume", views.resume, name="resume"),

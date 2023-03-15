@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Ana Clara CV</title>
+    {% load static %}
+    <link rel = "icon" type = "image" href = "{ % static 'ana1.png' %}">
+  </head> 
+
+  <style>
+    body{
+      background-color: #110114;
+    }
+    .parent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    html{
+      height: 1300px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    } 
+
+  </style>
+
+  <body>
+    <div class="parent"> 
+
+      <link href="{% static "css/fundo.css" %}" rel="stylesheet">
+        <section>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </section>
+
+      <header>
+        <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+      </header>
+
+      <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+      <ul>
+        <li style="--clr:#ebc4ba">
+          <a href="homept" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="sobre" data-text="&nbsp;Sobre">&nbsp;Sobre&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="projetos" data-text="&nbsp;Projetos">&nbsp;Projetos&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="currículo" data-text="&nbsp;Currículo">&nbsp;Currículo&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="contato" data-text="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
+        </li>
+      </ul>
+    </div>
+
+    <div style="position: absolute; top: 200px; left: 150px;">
+      <img src="{% static 'menina.png' %}" width="286" height="279">
+    </div>
+
+    <div style="position: absolute; top: 240px; left: 600px">
+      <link href="{% static "css/wave.css" %}" rel="stylesheet">
+      <h1 style="font-size: 6vmin;">Oi, tudo bem?</h1>
+    </div>
+
+    <div style="position: absolute; top: 240px; left: 880px">
+      <link href="{% static "css/wave.css" %}" rel="stylesheet">
+      <h1 class="wave">👋</h1>
+    </div>
+
+    <div style="position: absolute; top: 300px; left: 600px">
+      <h1 style="font-size: 6vmin;">Eu sou a <font style=" font-family: Lato, sans-serif; font-size: 6vmin; color: #bc00dd">ANA</font></h1>
+    </div>
+    
+    <div style="position: absolute; top: 380px; left: 600px">
+      <link href="{% static "css/type2.css" %}" rel="stylesheet">
+      <h1 style="color: #bc00dd; font-size: 5.5vmin;" class="typewriter"></h1>
+    </div>
+
+    <div style="position: absolute; top: 650px; left: 200px;">
+      <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 6.7vmin; font-weight: 500; letter-spacing: 0.1em;">UM POUCO <font style=" font-family: Lato, sans-serif; color: #bc00dd">SOBRE MIM</font></p>
+    </div>
+
+    <div style="position: absolute; top: 740px; right: 70px; ">
+      <img src="{% static 'ana4.png' %}" width="400" height="400">
+    </div>
+      <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3.5vmin; position: absolute; top: 720px; left: 90px; margin-right: 400px;">
+        Sou uma estudante de <font style=" font-family: Lato, sans-serif; color: #bc00dd">ciência da computação</font> da Unifesp que se apaixonou com a <font style=" font-family: Lato, sans-serif; color: #bc00dd">programação</font>! 
+      </p>
+      <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3.5vmin; position: absolute; top: 810px; left: 90px; margin-right: 455px;">
+        Eu acredito que <font style=" font-family: Lato, sans-serif; color: #bc00dd"> ciência da computação</font> se tornou onipresente na vida moderna e é 
+        <font style=" font-family: Lato, sans-serif; color: #bc00dd">essencial</font> para <font style=" font-family: Lato, sans-serif; color: #bc00dd">alcançar avanços</font>. Desde o desenvolvimento de novas tecnologias até
+        à análise de dados, o potencial da ciência da computação <font style=" font-family: Lato, sans-serif; color: #bc00dd">para impulsionar o progresso é ilimitado</font>.
+        <br></br>
+        Sou proficiente em <font style=" font-family: Lato, sans-serif; color: #bc00dd">Python, C and Java</font>
+        <br></br>
+        Estou particularmente interessada em <font style=" font-family: Lato, sans-serif; color: #bc00dd">segurança cibernética</font> (o mundo do hacking me fascina) e <font style=" font-family: Lato, sans-serif; color: #bc00dd">ciência de dados</font>. 
+        <br></br>
+        No entanto, <font style=" font-family: Lato, sans-serif; color: #bc00dd">meu amor por programar não tem limites</font>, e gosto de trabalhar com qualquer linguagem ou 
+        projeto que desafia minhas habilidades. 
+      </p>
+    </div>
+    
+  </body>
+</html>

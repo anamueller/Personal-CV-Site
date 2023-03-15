@@ -15,3 +15,9 @@ def resume(request):
 
 def contact(request):
 	return render(request=request, template_name='anasite/contact.html')
+
+def homept(request):
+	return render(request=request, template_name='anasite/homept.html')
+
+def sobre(request):
+	return render(request=request, template_name='anasite/sobre.html')

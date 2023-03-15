@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Ana Clara CV</title>
+  {% load static %}
+  <link rel = "icon" type = "image" href = "{ % static 'ana1.png' %}">
+</head>
+
+<style>
+  body{
+    background-color: #110114;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html{
+    height: 1100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+</style>
+
+<body>
+  <div class="parent">
+    <link href="{% static "css/fundo.css" %}" rel="stylesheet">
+      <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </section>
+    <header>
+      <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+    </header>
+    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+    <ul>
+      <li style="--clr:#ebc4ba">
+        <a href="homept" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+      </li>
+      <li style="--clr:#ebc4ba">
+        <a href="sobre" data-text="&nbsp;Sobre">&nbsp;Sobre&nbsp;</a>
+      </li>
+      <li style="--clr:#ebc4ba">
+        <a href="projetos" data-text="&nbsp;Projetos">&nbsp;Projetos&nbsp;</a>
+      </li>
+      <li style="--clr:#ebc4ba">
+        <a href="curriculo" data-text="&nbsp;Curriculo">&nbsp;Currículo&nbsp;</a>
+      </li>
+      <li style="--clr:#ebc4ba">
+        <a href="contato" data-text="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
+      </li>
+    </ul>
+  </div>
+
+  <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 150px; left: 425px;" href="https://drive.google.com/file/d/1pLzioL6TffP_5vl_tn8hq1PS_2qjySWQ/view">Download PT</a>
+  <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 150px; left: 675px;" href="https://drive.google.com/file/d/1lk90BxmmyX7hlYvvnxrtqm1RfyZXJUwx/view">Download EN</a>
+
+  <iframe style="position: absolute; top: 200px; left: 325px;" src="https://drive.google.com/file/d/16uWBJxCQey2P-pDs4X5iZMIc9N062F40/preview" width="640" height="820" allow="autoplay"></iframe>
+  </body>
+</html>

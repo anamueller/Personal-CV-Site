@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Ana Clara CV</title>
+  {% load static %}
+  <link rel = "icon" type = "image" href = "{ % static 'ana1.png' %}">
+</head> 
+
+<style>
+  body{
+    background-color: #110114;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html{
+    height: 1500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+</style>
+
+<body>
+  <div class="parent"> 
+    <link href="{% static "css/fundo.css" %}" rel="stylesheet">
+      <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </section>
+    <header>
+      <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+    </header>
+    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+    <ul>
+        <li style="--clr:#ebc4ba">
+          <a href="homept" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="sobre" data-text="&nbsp;Sobre">&nbsp;Sobre&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="projetos" data-text="&nbsp;Projetos">&nbsp;Projetos&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="curriculo" data-text="&nbsp;Curriculo">&nbsp;Currículo&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="contato" data-text="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
+        </li>
+      </ul>
+  </div>
+  <img style="position: absolute; top: 140px; left: 550px;" src="{% static 'github.png' %}" width="50" height="50">
+  <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 155px; left: 620px;" href="https://github.com/anamueller">GitHub</a>
+ 
+  <div style="position: absolute; top: 240px; left: 495px;">
+    <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;"> MEUS <font style=" font-family: Lato, sans-serif; color: #bc00dd">PROJETOS</font></p>
+    <link href="{% static "css/caixa2.css" %}" rel="stylesheet">
+    <div style="position: absolute; top: 65px; left: -395px;">  
+      
+      <div class="box2 reactive"></div>
+      <p style ="position: absolute; top: 40px; left: 110px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">Rede</p>
+      <p style ="position: absolute; top: 80px; left: 90px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">Trófica</p>
+      <p align="center" style=" position: absolute; top: 130px; left: 20px; margin-right: 10px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 3vmin;">
+        Algoritmo para modelar e analisar teias alimentares, 
+        simulando uma rede trófica entre 6 espécies, mostrando como cada espécie vai se 
+        comportar durante a linha do tempo, até todas elas se estabilizarem.
+      </p>
+      <a style="position: absolute; top: 330px; left: 115px; color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3vmin;" href="https://github.com/anamueller/Modelagem-Computacional/blob/main/Projeto_3_Rede_Tr%C3%B3fica.ipynb">GitHub</a>
+    </div>
+
+    <div style="position: absolute; top: 65px; left: 5px;">  
+     
+      <div class="box2 reactive"></div>
+      <p style ="position: absolute; top: 40px; left: 30px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">Algoritmo de</p>
+      <p style ="position: absolute; top: 80px; left: 35px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">Substituição</p>
+      <p align="center" style=" position: absolute; top: 130px; left: 20px; margin-right: 10px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 3vmin;">
+        Algoritmo desenvolvido para simular quando um sistema operacional precisa decidir qual(is) página(s)
+        remover da memória física (RAM) quando uma nova página precisa ser carregada na memória.</p>
+      <a style="position: absolute; top: 330px; left: 115px; color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3vmin;" href="https://github.com/anamueller/Sistemas-Operacionais/blob/main/AlgoritmosSubstituicao.c">GitHub</a>
+    </div>
+
+    <div style="position: absolute; top: 65px; left: 405px;">  
+     
+      <div class="box2 reactive"></div>
+      <p style ="position: absolute; top: 40px; left: 55px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">Fake News</p>
+      <p align="center" style=" position: absolute; top: 90px; left: 20px; margin-right: 10px; font-family: Lato, sans-serif; color: #ebc4ba; font-size: 3vmin;">
+        Desenvolvido modelos de propagação em redes, onde a disseminação de fake news é analisada em
+        diferentes cenários, e observa-se como ocorre a propagação de notícias falsas,
+        quantas pessoas recebem e encaminham as fake news, etc.</p>
+      <a style="position: absolute; top: 330px; left: 115px; color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3vmin;" href="https://github.com/anamueller/Modelagem-Computacional/blob/main/Projeto_4_Propaga%C3%A7%C3%A3o_de_Informa%C3%A7%C3%A3o_em_Redes_(Parte_2_Simula%C3%A7%C3%A3o).ipynb">GitHub</a>
+    </div>
+
+  </div>
+
+  </body>
+</html>

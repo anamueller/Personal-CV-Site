@@ -21,3 +21,12 @@ def homept(request):
 
 def sobre(request):
 	return render(request=request, template_name='anasite/sobre.html')
+
+def projetos(request):
+	return render(request=request, template_name='anasite/projetos.html')
+
+def curriculo(request):
+	return render(request=request, template_name='anasite/curriculo.html')
+
+def contato(request):
+	return render(request=request, template_name='anasite/contato.html')

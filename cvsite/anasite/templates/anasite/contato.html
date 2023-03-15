@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Ana Clara CV</title>
+  {% load static %}
+  <link rel = "icon" type = "image" href = "{ % static 'ana1.png' %}">
+</head> 
+
+<style>
+  body{
+    background-color: #110114;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+</style>
+
+<body>
+  <div class="parent"> 
+    <link href="{% static "css/fundo.css" %}" rel="stylesheet">
+      <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </section>
+    <header>
+      <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+    </header>
+    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+    <ul>
+        <li style="--clr:#ebc4ba">
+          <a href="homept" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="sobre" data-text="&nbsp;Sobre">&nbsp;Sobre&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="projetos" data-text="&nbsp;Projetos">&nbsp;Projetos&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="curriculo" data-text="&nbsp;Curriculo">&nbsp;Currículo&nbsp;</a>
+        </li>
+        <li style="--clr:#ebc4ba">
+          <a href="contato" data-text="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
+        </li>
+      </ul>
+  </div>
+
+  <img style="position: absolute; top: 205px; left: 400px;" src="{% static 'linkedin.png' %}" width="50" height="50">
+  <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 215px; left: 470px;" href="https://www.linkedin.com/in/anaclaramuellermiranda/">Ana Clara Mueller Miranda</a>
+  <img style="position: absolute; top: 265px; left: 400px;" src="{% static 'email.png' %}" width="50" height="50">
+  <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 280px; left: 470px;" >ana.mueller@unifesp.br</p>
+  <img style="position: absolute; top: 330px; left: 400px;" src="{% static 'telephone.png' %}" width="50" height="50">
+  <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 345px; left: 470px;" >19 99686-9660</p>
+  
+
+  </body>
+</html>

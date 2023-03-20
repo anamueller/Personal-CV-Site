@@ -1,0 +1,63 @@
+
+.get-to-know-me {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.get-to-know-me__image-container {
+    flex: 1;
+    display: flex;
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-to-know-me__image {
+    width: 435px;
+    height: 300px;
+}
+
+.get-to-know-me__text {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    color: #ebc4ba; 
+    flex-direction: column;
+    font-family: Lato, sans-serif; 
+    font-size: 3vmin; 
+}
+
+.paragraph{
+    color: #ebc4ba; 
+    font-family: Lato, sans-serif; 
+    justify-content: center;
+}
+
+.paragraph-purple{
+    color: #bc00dd; 
+    font-family: Lato, sans-serif; 
+    justify-content: center;
+}
+
+.title {
+    font-family: Lato, sans-serif; 
+    color: #ebc4ba; 
+    font-size: 5.5vmin; 
+    font-weight: 500; 
+    letter-spacing: 0.05em;
+    justify-content: center;
+    text-align: center;
+}
+
+.purple-title {
+    font-family: Lato, sans-serif; 
+    color: #bc00dd; 
+    font-size: 5.5vmin; 
+    font-weight: 500; 
+    letter-spacing: 0.05em;
+    justify-content: center;
+}

@@ -20,11 +20,10 @@
     align-items: center;
   }
   html{
-    height: 1800px;
+    height: 1900px;
     overflow-x: hidden;
     overflow-y: auto;
   }
-
 </style>
 
 <body>
@@ -45,8 +44,8 @@
     <header>
       <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
     </header>
-    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
     <ul>
+      <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
       <li style="--clr:#ebc4ba">
         <a href="home" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
       </li>
@@ -64,115 +63,100 @@
       </li>
     </ul>
   </div>
-
-  <div style="position: absolute; top: 220px; left: 100px;">
-    <img src="{% static 'gatinho.png' %}" width="435" height="300">
-  </div>
-
-  <div style="position: absolute; top: 180px; right: 260px;">
-    <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;">GET TO <font style=" font-family: Lato, sans-serif; color: #bc00dd">KNOW ME</font></p>
-  </div>
-
-  </div>
-  <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3vmin; position: absolute; top: 240px; left: 530px; margin-right: 40px;">
-    Hello, I am <font style=" font-family: Lato, sans-serif; color: #bc00dd">Ana Clara Mueller Miranda</font> a software developer, pre-sales engineer, and computer science student at<font style=" font-family: Lato, sans-serif; color: #bc00dd"> Unifesp (Federal University of São Paulo).</font>
-    <br></br>
-    I have a diverse range of skills and experience, including <font style=" font-family: Lato, sans-serif; color: #bc00dd">customer service, data science, and PAM solutions.</font>
-    <br></br>
-    During the pandemic, I worked on a project about analyzing COVID statistics using Python libraries, such as Pandas.
-    <br></br>
-    Currently, I am interning as a <font style=" font-family: Lato, sans-serif; color: #bc00dd">pre-sales engineer at Senhasegura.</font>
-    <br></br>
-    Aside from work and studies, I enjoy watching and playing sports, traveling, and reading. 
-  </p>
-  </div>
-
-  <div style="position: absolute; top: 670px; left: 495px;">
-    <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;"> MY <font style=" font-family: Lato, sans-serif; color: #bc00dd">HARDSKILLS</font></p>
-    <link href="{% static "css/caixa.css" %}" rel="stylesheet">
-    <div style="position: absolute; top: 65px; left: -315px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'python.png' %}" width="70" height="70">
-    </div>
+  &nbsp;
   
-    <div style="position: absolute; top: 65px; left: -115px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'java.png' %}" width="70" height="70">
+  <!--About me + image -->
+  <link href="{% static "css/get-to-know-me.css" %}" rel="stylesheet">
+  <div class="get-to-know-me">
+    <div class = "get-to-know-me__image-container">
+      <img  class ="get-to-know-me__image" src="{% static 'gatinho.png' %}">
     </div>
-  
-    <div style="position: absolute; top: 65px; left: 85px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'c.png' %}" width="70" height="70">
-    </div>
-  
-    <div style="position: absolute; top: 65px; left: 285px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'cmais.png' %}" width="70" height="70">
-    </div>
-  
-    <div style="position: absolute; top: 65px; left: 485px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'html.png' %}" width="70" height="70">
+
+    <div class="get-to-know-me__text">
+      <h1 class="title">GET TO<font class ="purple-title"> KNOW ME</font></h1>
+      &nbsp;
+      <p class="paragraph">
+        Hello, I am <font class="paragraph-purple">Ana Clara Mueller Miranda</font> a software developer, pre-sales engineer, and computer science student at<font class="paragraph-purple"> Unifesp (Federal University of São Paulo).</font>
+        <br></br>
+        I have a diverse range of skills and experience, including <font class="paragraph-purple">customer service, data science, and PAM solutions.</font>
+        <br></br>
+        During the pandemic, I worked on a project about analyzing COVID statistics using Python libraries, such as Pandas.
+        <br></br>
+        Currently, I am interning as a <font class="paragraph-purple">pre-sales engineer at Senhasegura.</font>
+        <br></br>
+        Aside from work and studies, I enjoy watching and playing sports, traveling, and reading. 
+      </p>
     </div>
   </div>
 
-  <div style="position: absolute; top: 920px; left: 480px;">  
-    <div class="caixa"></div>
-    <div class="box reactive"></div>
-    <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'django.png' %}" width="70" height="70">
+ <!--Hardskills -->
+ <link href="{% static "css/hardskills.css" %}" rel="stylesheet"> 
+ &nbsp;
+ <div>
+  &nbsp;
+    <h1 class="title">MY<font class ="purple-title"> HARDSKILLS</font>
+    <div class="container">
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'python.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'java.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'c.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'cmais.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'html.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'django.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'git.png' %}" >
+      </div>
+    </div>
+  </div> 
+
+
+  <!--Tools -->
+  <link href="{% static "css/tools.css" %}" rel="stylesheet"> 
+  &nbsp;
+  <div>
+    &nbsp;
+    <h1 class="title"><font class ="purple-title">TOOLS</font> I USE DAILY</h1>
+    <div class="container">
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'github.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'ubuntu.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'windows.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'vscode.png' %}" >
+      </div>
+      <div class="container__box reactive">
+        <img class="container__box-image" src="{% static 'jupyter.png' %}" >
+      </div>
+    </div>
   </div>
 
-  <div style="position: absolute; top: 920px; left: 680px;">  
-    <div class="caixa"></div>
-    <div class="box reactive"></div>
-    <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'git.png' %}" width="70" height="70">
-  </div>
 
-  <div style="position: absolute; top: 1165px; left: 460px;">
-    <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;"><font style=" font-family: Lato, sans-serif; color: #bc00dd">TOOLS</font> I USE DAILY</p>
+  <!--Github -->
+  <link href="{% static "css/github.css" %}" rel="stylesheet"> 
+  &nbsp;
+  <div class="git">
+    <h1 class="title">GITHUB<font class ="purple-title"> CONTRIBUTIONS</font></h1>
   </div>
-
-  <div style="position: absolute; top: 1165px; left: 355px;">
-    <div style="position: absolute; top: 65px; left: -175px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'github.png' %}" width="70" height="70">
-    </div>
-
-    <div style="position: absolute; top: 65px; left: 25px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'ubuntu.png' %}" width="70" height="70">
-    </div>
-  
-    <div style="position: absolute; top: 65px; left: 225px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'windows.png' %}" width="70" height="70">
-    </div>
-  
-    <div style="position: absolute; top: 65px; left: 425px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'vscode.png' %}" width="70" height="70">
-    </div>
-  
-    <div style="position: absolute; top: 65px; left: 625px;">  
-      <div class="caixa"></div>
-      <div class="box reactive"></div>
-      <img style="position: absolute; top: 55px; left: 30px;" src="{% static 'jupyter.png' %}" width="70" height="70">
-    </div>
+  &nbsp;
+  <div class="git">
+    <img src="https://ghchart.rshah.org/bc00dd/anamueller" alt="Ana's Github chart" width="1100"/>
   </div>
-
-  <div style="position: absolute; top: 1490px; left: 400px;">
-    <p style ="font-family: Lato, sans-serif; color: #ebc4ba; font-size: 5.5vmin; font-weight: 500; letter-spacing: 0.05em;"> GITHUB <font style=" font-family: Lato, sans-serif; color: #bc00dd">CONTRIBUTIONS</font></p>
-  </div>
-  <img style="position: absolute; top: 1565px; left: 80px;" src="https://ghchart.rshah.org/bc00dd/anamueller" alt="Ana's Github chart" width="1100"/>
   
 
   </body>

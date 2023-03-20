@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    padding: 50px;
+}
+
+.container__box {
+    width: 130px;
+    height: 130px;
+    padding: 1.5rem;
+    margin-top: 25px;
+    color: #ebc4ba;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px #ebc4ba;
+  }
+
+.container__box.reactive {
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: none;
+  }
+
+.container__box.reactive:hover {
+    box-shadow: 0 0 10px 2px #ebc4ba;
+  }
+
+.container__box-image{
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}

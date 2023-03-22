@@ -16,6 +16,7 @@ section{
     background-position-x: center;
     background-size: cover;
     animation: animateBg 50s linear infinite;
+    z-index: -1;
 }
 @keyframes animateBg {
     0%,100%

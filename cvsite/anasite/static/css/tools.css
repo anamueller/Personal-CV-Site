@@ -22,6 +22,10 @@
     padding: 20px;
     border: 1px solid;
     box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
 .container__box.reactive:hover {
@@ -31,6 +35,4 @@
 .container__box-image{
     width: 70px;
     height: 70px;
-    justify-content: center;
-    align-items: center;
 }

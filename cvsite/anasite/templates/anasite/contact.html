@@ -25,7 +25,7 @@
 <body>
   <div class="parent"> 
     <link href="{% static "css/fundo.css" %}" rel="stylesheet">
-      <section>
+      <div>
         <span></span>
         <span></span>
         <span></span>
@@ -36,7 +36,7 @@
         <span></span>
         <span></span>
         <span></span>
-      </section>
+      </div>
     <header>
       <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
     </header>
@@ -60,13 +60,22 @@
     </ul>
   </div>
 
-  <img style="position: absolute; top: 205px; left: 400px;" src="{% static 'linkedin.png' %}" width="50" height="50">
-  <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 215px; left: 470px;" href="https://www.linkedin.com/in/anaclaramuellermiranda/">Ana Clara Mueller Miranda</a>
-  <img style="position: absolute; top: 265px; left: 400px;" src="{% static 'email.png' %}" width="50" height="50">
-  <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 280px; left: 470px;" >ana.mueller@unifesp.br</p>
-  <img style="position: absolute; top: 330px; left: 400px;" src="{% static 'telephone.png' %}" width="50" height="50">
-  <p style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 4vmin; position: absolute; top: 345px; left: 470px;" >19 99686-9660</p>
-  
+  <!--Contact information -->
+  <link href="{% static "css/contact.css" %}" rel="stylesheet">
+  <div class="container">
+    <div class = "contact__image-container">
+      <img class="container__image" src="{% static 'linkedin.png' %}">
+      <img class="container__image" src="{% static 'email.png' %}">
+      <img class="container__image" src="{% static 'telephone.png' %}">
+    </div>
+
+    <div class="container__text">
+      <a class="paragraph" href="https://www.linkedin.com/in/anaclaramuellermiranda/">Ana Clara Mueller Miranda</a>
+      <p class="paragraph">ana.mueller@unifesp.br</p>
+      <p class="paragraph">19 99686-9660</p>
+    </div>
+  </div>
+
 
   </body>
 </html>

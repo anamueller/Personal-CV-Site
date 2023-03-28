@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     flex: 10;
-    row-gap: 10px;
+    row-gap: 30px;
 }
 
 .proj__caixa:hover {
@@ -84,13 +84,14 @@
 .proj__text-box{
     display: flex;
     overflow-y: scroll;
+    word-break: break-word;
 }
 
 
 .proj__text{
     color: #ebc4ba; 
     font-family: Lato, sans-serif; 
-    font-size: 3vmin;
+    font-size: 18px;
 }
 
 .link{
@@ -98,3 +99,24 @@
     flex: 1;
     justify-content: center;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2d1950;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(178, 121, 216, 0.959);
+    border-radius: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(222, 130, 235, 0.911);
+    border-radius: 12px;
+  }

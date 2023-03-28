@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    .get-to-know-me {
+      flex-direction: column;
+    }
+}
+
 .get-to-know-me__image-container {
     flex: 1;
     display: flex;
@@ -19,6 +25,13 @@
 .get-to-know-me__image {
     width: 435px;
     height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .get-to-know-me__image {
+        width: 305px;
+        height: 180px;
+    }
 }
 
 .get-to-know-me__text {
@@ -59,5 +72,11 @@
     font-size: 5.5vmin; 
     font-weight: 500; 
     letter-spacing: 0.05em;
+    justify-content: center;
+}
+
+.git {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

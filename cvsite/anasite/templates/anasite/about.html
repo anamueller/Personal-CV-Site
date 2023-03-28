@@ -29,7 +29,7 @@
 <body>
   <div class="parent"> 
 
-  <link href="{% static "css/fundo.css" %}" rel="stylesheet">
+    <link href="{% static "css/fundo.css" %}" rel="stylesheet">
     <div>
       <span></span>
       <span></span>
@@ -43,28 +43,27 @@
       <span></span>
     </div>
 
-  <header>
-    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
-    <div class="container-nav">
-      <div>
-        <img img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+    <header>
+      <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+      <div class="container-nav">
+        <div>
+          <img img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+        </div>
+        <nav>
+          <input id="toggle" type="checkbox" checked>
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="resume">Resume</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="homept">Português</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <input id="toggle" type="checkbox" checked>
-        <h2>Menu</h2>
-        <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="resume">Resume</a></li>
-          <li><a href="contact">Contact</a></li>
-          <li><a href="homept">Português</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-</div>
+    </header>
+  </div>
 
   
   

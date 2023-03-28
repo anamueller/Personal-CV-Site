@@ -105,7 +105,6 @@ nav ul li a:focus {
 nav ul a {
   display: block;
   color: inherit;
-  text-transform: lowercase;
   font-weight: 200;
   text-decoration: none;
 }

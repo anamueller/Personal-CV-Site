@@ -30,7 +30,7 @@
 <body>
   <div class="parent"> 
     <link href="{% static "css/fundo.css" %}" rel="stylesheet">
-      <section>
+      <div>
         <span></span>
         <span></span>
         <span></span>
@@ -41,28 +41,28 @@
         <span></span>
         <span></span>
         <span></span>
-      </section>
+      </div>
+  
     <header>
-      <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+      <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+      <div class="container-nav">
+        <div>
+          <img img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+        </div>
+        <nav>
+          <input id="toggle" type="checkbox" checked>
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="homept">Home</a></li>
+            <li><a href="sobre">Sobre</a></li>
+            <li><a href="projetos">Projetos</a></li>
+            <li><a href="curriculo">Currículo</a></li>
+            <li><a href="contato">Contato</a></li>
+            <li><a href="home">English</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
-    <ul>
-        <li style="--clr:#ebc4ba">
-          <a href="homept" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="sobre" data-text="&nbsp;Sobre">&nbsp;Sobre&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="projetos" data-text="&nbsp;Projetos">&nbsp;Projetos&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="curriculo" data-text="&nbsp;Curriculo">&nbsp;Currículo&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="contato" data-text="&nbsp;Contato">&nbsp;Contato&nbsp;</a>
-        </li>
-      </ul>
   </div>
 
   <!--About me + image -->

@@ -74,9 +74,3 @@
     letter-spacing: 0.05em;
     justify-content: center;
 }
-
-.git {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}

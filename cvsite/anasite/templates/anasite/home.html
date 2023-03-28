@@ -44,31 +44,26 @@
         </div>
 
       <header>
-        <img align= "left" img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+        <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
+        <div class="container-nav">
+          <div>
+            <img img src="{% static 'logo_ana4.png' %}" width="120" height="120">
+          </div>
+          <nav>
+            <input id="toggle" type="checkbox" checked>
+            <h2>Menu</h2>
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="about">About</a></li>
+              <li><a href="projects">Projects</a></li>
+              <li><a href="resume">Resume</a></li>
+              <li><a href="contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
-      <link href="{% static "css/navbar2.css" %}" rel="stylesheet">
-      <ul>
-        <li style="--clr:#ebc4ba">
-          <a href="home" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="about" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="projects" data-text="&nbsp;Projects">&nbsp;Projects&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="resume" data-text="&nbsp;Resume">&nbsp;Resume&nbsp;</a>
-        </li>
-        <li style="--clr:#ebc4ba">
-          <a href="contact" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
-        </li>
-      </ul>
-
     </div>
-
-    <a style="color: #ebc4ba; font-family: Lato, sans-serif; font-size: 3vmin; position: absolute; top: 50px; left: 20px;" href="homept">Português</a>
 
     <link href="{% static "css/home.css" %}" rel="stylesheet">
  
